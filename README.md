@@ -18,3 +18,8 @@ This software is only for solving simple comparisons in daily work and is not su
 
 I have modified it about ten times according to my needs. I don't think there will be any changes in the short term after this version. If necessary, you can DIY based on this.
 ---English content source translation software
+
+
+本来想直接上传exe文件供大家直接使用，但是超过25M限制了，软件大概40M，有不想打包的可以直接联系我。
+
+Originally wanted to directly upload exe file for everyone to use directly, but more than 25M limit, software about 40M, do not want to package can contact me directly.
