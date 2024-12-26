@@ -23,3 +23,22 @@ I have modified it about ten times according to my needs. I don't think there wi
 本来想直接上传exe文件供大家直接使用，但是超过25M限制了，软件大概40M，有不想打包的可以直接联系我。
 
 Originally wanted to directly upload exe file for everyone to use directly, but more than 25M limit, software about 40M, do not want to package can contact me directly.
+
+
+
+--软件写了有一段时间，有些功能忘记说明：
+  1.按住shift左键行表头，可以固定列，固定后的列不能调节宽度，再次释放才可以。
+  2.内置是隐藏第一列数据的，因为第一列往往是主键，两侧数据是一致的，可以通过修改配置文件中的hidden_colum_count的值修改
+  3.配置文件默认是不带的，首次使用后保存配置文件会在同级文件夹生成一个配置文件，有些内容可以直接在配置文件中修改
+  4.本人建议是用视图去进行比较，保证字段格式一致的情况下，还能保证数据安全，软件是配置了备份功能的，视图一定程度可以防止误操作
+
+
+-- The software has been written for some time, and some functions have forgotten to explain:
+
+1. Hold down the left key of shift to fix the column. The width of the fixed column cannot be adjusted.
+
+2. The built-in data in the first column is hidden, because the first column is usually the primary key, and the data on both sides is consistent. You can change the hidden_colum_count value in the configuration file
+
+3. The configuration file is not brought by default. Saving the configuration file after the first use will generate a configuration file in the same folder, and some contents can be modified directly in the configuration file
+
+4. I suggest using view for comparison to ensure the consistency of field format and data security. The software is configured with backup function, and view can prevent misoperation to a certain extent
